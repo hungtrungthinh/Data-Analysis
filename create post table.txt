@@ -1,0 +1,9 @@
+create table post(
+id int auto_increment,
+post_content varchar(800),
+post_image longblob,
+created_on timestamp,
+username varchar(60),
+email varchar(80),
+primary key(id)
+);
